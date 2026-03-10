@@ -1,0 +1,242 @@
+{
+    "results": [
+        {
+            "fsq_place_id": "4b753aa1f964a520e5012ee3",
+            "latitude": 52.078371,
+            "longitude": 4.304363,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1c9941735",
+                    "name": "Ice Cream Parlor",
+                    "short_name": "Ice Cream",
+                    "plural_name": "Ice Cream Parlors",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/icecream_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "short_name": "Coffee Shop",
+                    "plural_name": "Coffee Shops",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2010-02-12",
+            "date_refreshed": "2025-11-30",
+            "distance": 436,
+            "extended_location": {},
+            "link": "/places/4b753aa1f964a520e5012ee3",
+            "location": {
+                "address": "Torenstraat 55",
+                "locality": "Den Haag",
+                "region": "Zuid-Holland",
+                "postcode": "2513 BN",
+                "country": "NL",
+                "formatted_address": "Torenstraat 55, 2513 BN Den Haag"
+            },
+            "name": "Florencia",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4b753aa1f964a520e5012ee3",
+            "related_places": {},
+            "social_media": {},
+            "tel": "070 363 0214",
+            "website": "http://www.florenciaijs.nl"
+        },
+        {
+            "fsq_place_id": "5c1faeda464d65002c275ae3",
+            "latitude": 52.07807488953086,
+            "longitude": 4.305287257891516,
+            "categories": [
+                {
+                    "fsq_category_id": "5e18993feee47d000759b256",
+                    "name": "Coffee Roaster",
+                    "short_name": "Coffee Roaster",
+                    "plural_name": "Coffee Roasters",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_gourmet_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "short_name": "Coffee Shop",
+                    "plural_name": "Coffee Shops",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2018-12-23",
+            "date_refreshed": "2025-11-15",
+            "distance": 482,
+            "extended_location": {},
+            "link": "/places/5c1faeda464d65002c275ae3",
+            "location": {
+                "address": "Torenstraat 98",
+                "locality": "Den Haag",
+                "region": "Zuid-Holland",
+                "postcode": "2513 BV",
+                "country": "NL",
+                "formatted_address": "Torenstraat 98, 2513 BV Den Haag"
+            },
+            "name": "Perron X Coffee (Coffee by Lot Sixty One)",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/5c1faeda464d65002c275ae3",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            },
+            "tel": "06 16054227",
+            "website": "https://perronxcoffee.nl"
+        },
+        {
+            "fsq_place_id": "4fc0d779e4b0c592343c51d0",
+            "latitude": 52.079760645879006,
+            "longitude": 4.30409007427337,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "short_name": "Coffee Shop",
+                    "plural_name": "Coffee Shops",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "fsq_category_id": "4bf58dd8d48988d16d941735",
+                    "name": "Café",
+                    "short_name": "Café",
+                    "plural_name": "Cafés",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2012-05-26",
+            "date_refreshed": "2024-12-21",
+            "distance": 507,
+            "extended_location": {},
+            "link": "/places/4fc0d779e4b0c592343c51d0",
+            "location": {
+                "address": "Prinsestraat 114",
+                "locality": "Den Haag",
+                "region": "Noord-Brabant",
+                "postcode": "2513 CH",
+                "country": "NL",
+                "formatted_address": "Prinsestraat 114, 2513 CH Den Haag"
+            },
+            "name": "Koffiebranderij Boon",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4fc0d779e4b0c592343c51d0",
+            "related_places": {},
+            "social_media": {
+                "facebook_id": "338369412848117",
+                "twitter": "versekoffie070"
+            },
+            "tel": "070 744 4972",
+            "website": "http://www.koffiebranderijboon.nl"
+        },
+        {
+            "fsq_place_id": "4ad07580f964a52019d820e3",
+            "latitude": 52.08122404657547,
+            "longitude": 4.297135859515454,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d16d941735",
+                    "name": "Café",
+                    "short_name": "Café",
+                    "plural_name": "Cafés",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "short_name": "Coffee Shop",
+                    "plural_name": "Coffee Shops",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2009-10-10",
+            "date_refreshed": "2026-01-17",
+            "distance": 515,
+            "extended_location": {},
+            "link": "/places/4ad07580f964a52019d820e3",
+            "location": {
+                "address": "Piet Heijnstraat 108a",
+                "locality": "Den Haag",
+                "region": "Zuid-Holland",
+                "postcode": "2518 CM",
+                "country": "NL",
+                "formatted_address": "Piet Heijnstraat 108a, 2518 CM Den Haag"
+            },
+            "name": "Crunch",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/4ad07580f964a52019d820e3",
+            "related_places": {},
+            "social_media": {},
+            "tel": "070 364 0552",
+            "website": "http://www.crunchcafe.nl"
+        },
+        {
+            "fsq_place_id": "52384402498ea98095d48d8d",
+            "latitude": 52.07907556877796,
+            "longitude": 4.305623946635195,
+            "categories": [
+                {
+                    "fsq_category_id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee Shop",
+                    "short_name": "Coffee Shop",
+                    "plural_name": "Coffee Shops",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "date_created": "2013-09-17",
+            "date_refreshed": "2025-10-11",
+            "distance": 548,
+            "extended_location": {},
+            "link": "/places/52384402498ea98095d48d8d",
+            "location": {
+                "address": "Prinsestraat 47",
+                "locality": "Den Haag",
+                "region": "Noord-Brabant",
+                "postcode": "",
+                "country": "NL",
+                "formatted_address": "Prinsestraat 47, Den Haag"
+            },
+            "name": "Espresso Perfetto",
+            "placemaker_url": "https://foursquare.com/placemakers/review-place/52384402498ea98095d48d8d",
+            "related_places": {},
+            "social_media": {
+                "twitter": ""
+            },
+            "tel": "06 14533773",
+            "website": "http://www.espressoperfetto-denhaag.nl"
+        }
+    ],
+    "context": {
+        "geo_bounds": {
+            "circle": {
+                "center": {
+                    "latitude": 52.07667,
+                    "longitude": 4.29861
+                },
+                "radius": 6378
+            }
+        }
+    }
+}

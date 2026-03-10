@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_599ffe63bf9f36ffdccdbed4596e0bbe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_599ffe63bf9f36ffdccdbed4596e0bbe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_599ffe63bf9f36ffdccdbed4596e0bbe = L.map(
+                "map_599ffe63bf9f36ffdccdbed4596e0bbe",
+                {
+                    center: [52.07930123015266, 4.3033000276631075],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30f1dccf9502b91e0b2106fda14f1054 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_30f1dccf9502b91e0b2106fda14f1054.addTo(map_599ffe63bf9f36ffdccdbed4596e0bbe);
+        
+    
+            var marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_a033e8768ace188d4b5fe291e3724a19 = L.marker(
+                [52.078371, 4.304363],
+                {
+}
+            ).addTo(marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac);
+        
+    
+            var icon_457ebef0b022f43d9f871baac024f81a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c8e3aaf26f25a1938b3e5f5e38df403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e47298cac02d2b0412257f5e6a6298d4 = $(`<div id="html_e47298cac02d2b0412257f5e6a6298d4" style="width: 100.0%; height: 100.0%;">Florencia</div>`)[0];
+                popup_1c8e3aaf26f25a1938b3e5f5e38df403.setContent(html_e47298cac02d2b0412257f5e6a6298d4);
+            
+        
+
+        marker_a033e8768ace188d4b5fe291e3724a19.bindPopup(popup_1c8e3aaf26f25a1938b3e5f5e38df403)
+        ;
+
+        
+    
+    
+                marker_a033e8768ace188d4b5fe291e3724a19.setIcon(icon_457ebef0b022f43d9f871baac024f81a);
+            
+    
+            var marker_31aeafb0d193dc1d1e9cf4db6f50736e = L.marker(
+                [52.07807488953086, 4.305287257891516],
+                {
+}
+            ).addTo(marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac);
+        
+    
+            var icon_eabe507a89dac2f286aae052a528ea65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a36db70937724f7ca3a241f31e93714 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_264ef0aa5ddf5ee9d20b6092ed512aef = $(`<div id="html_264ef0aa5ddf5ee9d20b6092ed512aef" style="width: 100.0%; height: 100.0%;">Perron X Coffee (Coffee by Lot Sixty One)</div>`)[0];
+                popup_1a36db70937724f7ca3a241f31e93714.setContent(html_264ef0aa5ddf5ee9d20b6092ed512aef);
+            
+        
+
+        marker_31aeafb0d193dc1d1e9cf4db6f50736e.bindPopup(popup_1a36db70937724f7ca3a241f31e93714)
+        ;
+
+        
+    
+    
+                marker_31aeafb0d193dc1d1e9cf4db6f50736e.setIcon(icon_eabe507a89dac2f286aae052a528ea65);
+            
+    
+            var marker_19bde257250838dacf6c887d5fc64d9b = L.marker(
+                [52.079760645879006, 4.30409007427337],
+                {
+}
+            ).addTo(marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac);
+        
+    
+            var icon_f61af5aa3712be003ace0962cef3f60a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_921835607f791b2bcca11f4ddb91722b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97d6977582cfbb1e5542fe9a07e28946 = $(`<div id="html_97d6977582cfbb1e5542fe9a07e28946" style="width: 100.0%; height: 100.0%;">Koffiebranderij Boon</div>`)[0];
+                popup_921835607f791b2bcca11f4ddb91722b.setContent(html_97d6977582cfbb1e5542fe9a07e28946);
+            
+        
+
+        marker_19bde257250838dacf6c887d5fc64d9b.bindPopup(popup_921835607f791b2bcca11f4ddb91722b)
+        ;
+
+        
+    
+    
+                marker_19bde257250838dacf6c887d5fc64d9b.setIcon(icon_f61af5aa3712be003ace0962cef3f60a);
+            
+    
+            var marker_f25c293c227c2b851c9f9e7fa4853387 = L.marker(
+                [52.08122404657547, 4.297135859515454],
+                {
+}
+            ).addTo(marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac);
+        
+    
+            var icon_22fe4f726add117416115512842ec17f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59a3a0cb464a8fe4248fe2390fa81625 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccf1a45c7b58d79cc560d58375a32b9e = $(`<div id="html_ccf1a45c7b58d79cc560d58375a32b9e" style="width: 100.0%; height: 100.0%;">Crunch</div>`)[0];
+                popup_59a3a0cb464a8fe4248fe2390fa81625.setContent(html_ccf1a45c7b58d79cc560d58375a32b9e);
+            
+        
+
+        marker_f25c293c227c2b851c9f9e7fa4853387.bindPopup(popup_59a3a0cb464a8fe4248fe2390fa81625)
+        ;
+
+        
+    
+    
+                marker_f25c293c227c2b851c9f9e7fa4853387.setIcon(icon_22fe4f726add117416115512842ec17f);
+            
+    
+            var marker_e7a6f40192175a560215c35c4d099e99 = L.marker(
+                [52.07907556877796, 4.305623946635195],
+                {
+}
+            ).addTo(marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac);
+        
+    
+            var icon_2735b6b2773635ad5500dba618d21fab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3775528a0044ac2efdfdd2e8da4c18ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fa935542aebc72838471ee8759078a2 = $(`<div id="html_5fa935542aebc72838471ee8759078a2" style="width: 100.0%; height: 100.0%;">Espresso Perfetto</div>`)[0];
+                popup_3775528a0044ac2efdfdd2e8da4c18ee.setContent(html_5fa935542aebc72838471ee8759078a2);
+            
+        
+
+        marker_e7a6f40192175a560215c35c4d099e99.bindPopup(popup_3775528a0044ac2efdfdd2e8da4c18ee)
+        ;
+
+        
+    
+    
+                marker_e7a6f40192175a560215c35c4d099e99.setIcon(icon_2735b6b2773635ad5500dba618d21fab);
+            
+    
+            marker_cluster_5b8c578b11d76ee2c31cb62f87b7f5ac.addTo(map_599ffe63bf9f36ffdccdbed4596e0bbe);
+        
+</script>
+</html>
